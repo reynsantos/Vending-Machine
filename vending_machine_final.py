@@ -151,12 +151,6 @@ def setup_gui():
     suggestion_listbox = tk.Listbox(root, width=40, height=10, bg='#E67E22', fg='white', font=("Helvetica", 12))
     suggestion_listbox.grid(row=1, column=2, rowspan=3, padx=10, pady=10)
 
-    # Mars theme logo or image can be placed here if desired
-    # You can use an image with: 
-    # mars_image = tk.PhotoImage(file="mars_image.png")
-    # mars_label = tk.Label(root, image=mars_image)
-    # mars_label.grid(row=0, column=3)
-
     root.mainloop()
 
 # Run the GUI
